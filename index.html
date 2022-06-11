@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Mokrushin HW 5</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -30,38 +30,50 @@
         <nav class="header-nav">
           <!-- навигация -->
           <ul class="nav-list list">
-            <li class="nav-page">
-              <a class="link nav-link current" href="./index.html">Студия</a>
+            <li class="nav-page">    
+
+                <a class="link nav-link current" href="./index.html">Студия</a> 
+
             </li>
 
             <li class="nav-page">
+
               <a class="link nav-link" href="./portfolio.html">Портфолио</a>
+
             </li>
 
             <li class="nav-page">
+
               <a class="link nav-link" href="">Контакты</a>
+
             </li>
+
+
           </ul>
         </nav>
 
         <!-- контакты -->
         <ul class="contacts-list list">
           <li class="contacts-item">
+
             <a class="contacts-link link" href="mailto:info@devstudio.com">
               <svg class="header-mail">
                 <use href="./images/icons/main/header-icons/symbol-defs.svg#icon-envelope"></use>
               </svg>
               info@devstudio.com</a
             >
+
           </li>
 
           <li class="contacts-item">
+
             <a class="contacts-link link" href="tel:+380961111111">
               <svg class="header-tel">
                 <use href="./images/icons/main/header-icons/symbol-defs.svg#icon-smartphone"></use>
               </svg>
               +38 096 111 11 11</a
             >
+
           </li>
         </ul>
       </div>
@@ -76,63 +88,88 @@
           для вашего бизнеса
         </h1>
 
-        <button class="hero-button" type="button">Заказать услугу</button>
+        <button class="hero-button" type="button" data-modal-open>Заказать услугу</button>
       </section>
 
       <!-- список требований -->
       <section class="section require">
         <div class="container">
+
           <h2 class="require-section-name visually-hidden">Cписок требований</h2>
 
           <ul class="require-list list">
             <li class="require-point">
+
               <div class="require-image">
+                
                 <svg class="require-icon">
                   <use href="./images/icons/main/require-icons/symbol-defs.svg#icon-antenna"></use>
                 </svg>
+
               </div>
+
               <h3 class="require-name">Внимание к деталям</h3>
+              
               <p class="require-text">
                 Идейные соображения, а также начало повседневной работы по формированию позиции.
               </p>
+
             </li>
 
             <li class="require-point">
+
               <div class="require-image">
+
                 <svg class="require-icon">
                   <use href="./images/icons/main/require-icons/symbol-defs.svg#icon-clock"></use>
                 </svg>
+
               </div>
+              
               <h3 class="require-name">Пунктуальность</h3>
+
               <p class="require-text">
                 Задача организации, в особенности же рамки и место обучения кадров влечет за собой.
               </p>
+
             </li>
 
             <li class="require-point">
+
               <div class="require-image">
+                
                 <svg class="require-icon">
                   <use href="./images/icons/main/require-icons/symbol-defs.svg#icon-diagram"></use>
                 </svg>
+
               </div>
+
               <h3 class="require-name">Планирование</h3>
+
               <p class="require-text">
                 Равным образом консультация с широким активом в значительной степени обуславливает.
               </p>
+
             </li>
 
             <li class="require-point">
+
               <div class="require-image">
+                
                 <svg class="require-icon">
                   <use
                     href="./images/icons/main/require-icons/symbol-defs.svg#icon-astronaut"
                   ></use>
                 </svg>
+
               </div>
+
               <h3 class="require-name">Современные технологии</h3>
+
               <p class="require-text">
                 Значимость этих проблем настолько очевидна, что реализация плановых заданий.
               </p>
+
             </li>
           </ul>
         </div>
@@ -140,20 +177,36 @@
 
       <!-- Чем мы занимаемся -->
       <section class="section about">
+
         <div class="container">
+
           <h2 class="about-section-name">Чем мы занимаемся</h2>
 
           <ul class="about-list list">
+
             <li class="about-item">
-              <img src="./images/img-main/ur-works1.jpg" alt="работает на ПК" width="370" />
+              <div class="about-img-container">
+                <img src="./images/img-main/ur-works1.jpg" alt="Десктопные приложения" width="370" />
+                
+                <p class="about-img-desc">Десктопные приложения</p>
+              </div>
             </li>
 
             <li class="about-item">
-              <img src="./images/img-main/ur-works2.jpg" alt="работает на телефоне" width="370" />
+              <div class="about-img-container">
+                <img src="./images/img-main/ur-works2.jpg" alt="Мобильные приложения" width="370" />
+                
+                <p class="about-img-desc">Мобильные приложения</p>
+              </div>
             </li>
 
             <li class="about-item">
-              <img src="./images/img-main/ur-works3.jpg" alt="работает на планшете" width="370" />
+
+              <div class="about-img-container">
+                <img src="./images/img-main/ur-works3.jpg" alt="Дизайнерские решения" width="370" />
+                
+                <p class="about-img-desc">Дизайнерские решения</p>
+              </div>
             </li>
           </ul>
         </div>
@@ -236,7 +289,7 @@
                     </svg>
                   </a>
                 </li>
-
+   
                 <li class="team-soc-item">
                   <a href="" class="team-soc-link link">
                     <svg class="team-soc-icon" width="20" height="20">
@@ -464,42 +517,50 @@
 
           <ul class="foot-net-list">
             <li class="foot-net-item">
-              <a href="" class="foot-net-link">
+              <a href="./tester.html" class="foot-net-link">
+
                 <svg class="foot-net-icon" width="20" height="20">
                       <use
                         href="./images/icons/main/network-icons/symbol-defs.svg#icon-instagram"
                       ></use>
                 </svg>
+
               </a>
             </li>
 
             <li class="foot-net-item">
               <a href="" class="foot-net-link">
+                
                 <svg class="foot-net-icon" width="20" height="20">
                       <use
                         href="./images/icons/main/network-icons/symbol-defs.svg#icon-twitter"
                       ></use>
                 </svg>
+
               </a>
             </li>
 
             <li class="foot-net-item">
               <a href="" class="foot-net-link">
+
                 <svg class="foot-net-icon" width="20" height="20">
                       <use
                         href="./images/icons/main/network-icons/symbol-defs.svg#icon-facebook"
                       ></use>
                 </svg>
+
               </a>
             </li>
 
             <li class="foot-net-item">
               <a href="" class="foot-net-link">
+                
                 <svg class="foot-net-icon" width="20" height="20">
                       <use
                         href="./images/icons/main/network-icons/symbol-defs.svg#icon-linkedin"
                       ></use>
                 </svg>
+
               </a>
             </li>
 
@@ -507,5 +568,23 @@
         </div>
       </div>
     </footer>
+
+     <!-- -------------------------MODAL----------------------------------- -->
+
+    <div class="backdrop is-hidden" data-modal>
+      <div class="modal">
+        <button class="modal-btn" type="button" data-modal-close>
+          
+          <svg class="modal-close-icon">
+            <use href="./images/icons/main/modal-icon/close-icon.svg#icon-close-icon"></use>
+          </svg>
+          
+        </button>
+      </div>
+    </div>
+
+
+    <!-- ---------------------------SCRIPT-------------------------------- -->
+    <script src="./js/modal.js"></script>
   </body>
 </html>
