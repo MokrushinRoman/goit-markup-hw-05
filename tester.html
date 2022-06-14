@@ -18,12 +18,51 @@
         <div class="a">
           <div class="b is-hidden" data-modal>
             <form>
-              <label>
-                Phone number
-                <input type="tel" name="phone_number" />
-              </label>
+              <fieldset>
+                <legend>Enter your contact details</legend>
+                <label>
+                  Name
+                  <input type="text" name="username" />
+                </label>
+                <label>
+                  Email
+                  <input type="email" name="email" />
+                </label>
+              </fieldset>
 
-              <button type="submit">Submit</button>
+              <fieldset>
+                <legend>Your favourite programming language</legend>
+                <label>
+                  <input type="checkbox" name="language" value="python" />
+                  Python
+                </label>
+                <label>
+                  <input type="checkbox" name="language" value="js" />
+                  JavaScript
+                </label>
+                <label>
+                  <input type="checkbox" name="language" value="ruby" />
+                  Ruby
+                </label>
+              </fieldset>
+
+              <fieldset>
+                <legend>I want to receive</legend>
+                <label>
+                  <input type="checkbox" name="newsletter" value="weekly" />
+                  The weekly newsletter
+                </label>
+                <label>
+                  <input type="checkbox" name="newsletter" value="company_offers" />
+                  Offers from the company
+                </label>
+                <label>
+                  <input type="checkbox" name="newsletter" value="associated_offers" />
+                  Offers from associated companies
+                </label>
+              </fieldset>
+
+              <button type="submit">Subscribe</button>
             </form>
           </div>
         </div>

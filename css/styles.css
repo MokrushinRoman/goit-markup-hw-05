@@ -856,18 +856,6 @@ img {
 
 /* -----------animation------------ */
 
-@keyframes backdrop {
-  0% {
-    bottom: 0;
-    right: 0;
-  }
-
-  100% {
-    top: 0;
-    left: 0;
-  }
-}
-
 /* ---------------TESTER---------------------------------------- */
 
 .studio {
@@ -895,44 +883,24 @@ img {
   border: 1px solid teal;
 }
 
-/* ----------------------------------
-.b {
-  position: absolute;
-  top: 0;
-  left: 0;
-
-  height: 100px;
-  width: 100px;
-  background-color: rgba(33, 149, 243, 0.349);
-
-  transition: top 1000ms linear, left 1000ms linear;
+body {
+  font-family: sans-serif;
+  line-height: 1.5;
 }
 
-.b.is-hidden {
-  position: absolute;
-  top: 100%;
-  left: 100%;
-
-  visibility: hidden;
-  opacity: 0;
-  pointer-events: none;
+input,
+textarea {
+  padding: 8px;
+  font-family: inherit;
+  font-size: inherit;
 }
----------------------------------------
 
-.but {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-
-  width: 10px;
-  height: 10px;
-
-  transition: top 1000ms linear 1000ms, left 1000ms linear 1000ms;
+label {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 8px;
 }
-.b.is-hidden .but {
-  position: absolute;
-  top: 100%;
-  left: -20%;
-  transform: translate(0, 0);
-} */
+
+textarea {
+  resize: b;
+}
